@@ -39,7 +39,8 @@
     </style>
   </head>
   <body>
-    <h2>This is Level FOUR</h2>
+    <h2>QUICK MATH - Level FOUR</h2>
+    <h5>Type in your answer, press enter, check your score and attempt the next question</h5>
     <div id="app"></div>
     <script type="text/babel">
       class App extends React.Component {
@@ -54,7 +55,7 @@
         }
         render() {
           if (this.state.score === 10) {
-            return <div id="winner">You WON!</div>;
+            return <div id="winner">AMAZING JOB! Proceed to Level Five</div>;
           }
           return (
             <div>
